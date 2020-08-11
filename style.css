@@ -1,21 +1,55 @@
 /*        navbar    */
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #navbarMenu {
     display: none !important;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   #navName {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+  #navbarMenuToggler {
+    display: none !important;
+  }
+}
+nav {
+  font-family: helvetica;
+}
+/*      main content      */
 #hero {
   background-image: url(./images/Main_photo.jpg);
   background-size: cover;
   background-position: center bottom;
+  font-family: helvetica;
+  height: 650px;
 }
-
-#hero h2 {
-  padding-top: 200px;
-  padding-bottom: 200px;
+#heroIntro {
+  padding-top: 250px;
+}
+#heroIntro p {
+  font-size: 35px;
+}
+@media (max-width: 576px) {
+  #heroIntro p {
+    font-size: 29px;
+  }
+}
+@media (min-width: 710px) {
+  #intro  {
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-right-color: white;
+  }
+}
+@media (max-width: 710px) {
+  #subIntro  {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: white;
+  }
+}
+#socialButtons i {
+  padding-right: 7px;
 }

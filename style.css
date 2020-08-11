@@ -1,0 +1,21 @@
+/*        navbar    */
+@media (min-width: 1200px) {
+  #navbarMenu {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  #navName {
+    display: none !important;
+  }
+}
+#hero {
+  background-image: url(./images/Main_photo.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#hero h2 {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}

@@ -73,6 +73,9 @@ p, h1, h2 {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #E4E4E4;
+  background-image: url(./images/project_background.png);
+  background-size: cover;
+  background-position: center bottom;
 }
 
 #portfolio .text {
@@ -80,9 +83,27 @@ p, h1, h2 {
   font-family: helvetica;
   font-size: 20px;
   position: relative;
-  bottom: 200px;
-  left: 10px;
+  bottom: 150px;
+  left: 20px;
   visibility: hidden;
+}
+#siteOne:hover {
+  opacity: 0.5;
+}
+#siteTwo:hover {
+  opacity: 0.5;
+}
+#siteThree:hover {
+  opacity: 0.5;
+}
+#siteFour:hover {
+  opacity: 0.5;
+}
+#siteFive:hover {
+  opacity: 0.5;
+}
+#siteSix:hover {
+  opacity: 0.5;
 }
 #siteOne:hover .text {
   visibility: visible;
@@ -92,4 +113,49 @@ p, h1, h2 {
 }
 #siteThree:hover .text {
   visibility: visible;
+}
+#siteFour:hover .text {
+  visibility: visible;
+}
+#siteFive:hover .text {
+  visibility: visible;
+}
+#siteSix:hover .text {
+  visibility: visible;
+}
+
+/*        aboutUs     */
+#profilePic img{
+  width: 100%;
+}
+#aboutUs {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #E4E4E4;
+}
+#aboutHeader {
+  color: #979696;
+}
+#profileStory {
+  color: #787878;
+  font-family: helvetica;
+  font-size: 18px;
+}
+/*      footer      */
+#footBar {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #E4E4E4;
+}
+
+.socialMedia i {
+  color: #979696;
+}
+.socialMedia a:hover {
+  color: black;
+}
+#aboutUs {
+  background-image: url(./images/story_background.png);
+  background-size: cover;
+  background-position: center bottom;
 }

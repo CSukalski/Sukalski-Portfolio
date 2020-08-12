@@ -1,23 +1,29 @@
 /*        navbar    */
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   #navbarMenu {
     display: none !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   #navName {
     display: none !important;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 991px) {
   #navbarMenuToggler {
     display: none !important;
   }
+}
+#navbarMenuToggler {
+  color: white;
 }
 nav {
   font-family: helvetica;
 }
 /*      main content      */
+p, h1, h2 {
+  font-family: helvetica;
+}
 #hero {
   background-image: url(./images/Main_photo.jpg);
   background-size: cover;
@@ -52,4 +58,38 @@ nav {
 }
 #socialButtons i {
   padding-right: 7px;
+}
+/*        Portfolio     */
+#portfolioHeader {
+  color: #979696;
+}
+
+.aspectRatioBox {
+  padding-top: calc(2 / 3 * 100%);
+  background-size: cover;
+  background-position: center;
+}
+#portfolio {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #E4E4E4;
+}
+
+#portfolio .text {
+  color: white;
+  font-family: helvetica;
+  font-size: 20px;
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+  visibility: hidden;
+}
+#siteOne:hover .text {
+  visibility: visible;
+}
+#siteTwo:hover .text {
+  visibility: visible;
+}
+#siteThree:hover .text {
+  visibility: visible;
 }

@@ -13,18 +13,18 @@
   </head>
   <body>
     <nav class="container-fluid navbar navbar-expand-lg py-0 position-absolute">
-      <div class="d-none d-md-flex flex-grow-1" id="mdNavbar">
+      <div class="d-none d-lg-flex flex-grow-1" id="lgNavbar">
         <a class="navbar-brand text-white" href="#">cheyenne sukalski</a>
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link text-white" href="#">About</a>
-          <a class="nav-item nav-link text-white" href="#">Portfolio</a>
+          <a class="nav-item nav-link scroll-link text-white" href="#aboutUs">About</a>
+          <a class="nav-item nav-link scroll-link text-white" href="#portfolio">Portfolio</a>
         </div>
       </div>
       <a class="navbar-brand text-white" id="navName" href="#">cheyenne sukalski</a>
       <a class="navbar-toggler navbar-brand py-0 pr-0 ml-auto border-0" role="button" data-toggle="collapse" href="#navbarMenu" id="navbarMenuToggler"><i class="fas fa-bars"></i></a>
       <div class="collapse navbar-collapse pt-0 px-2 pb-4 font-weight-light" id="navbarMenu">
-        <a class="nav-item nav-link text-white" href="#">About</a>
-        <a class="nav-item nav-link text-white" href="#">Portfolio</a>
+        <a class="nav-item nav-link scroll-link text-white" href="#aboutUs">About</a>
+        <a class="nav-item nav-link scroll-link text-white" href="#portfolio">Portfolio</a>
       </div>
     </nav>
     <div id="hero">
@@ -41,13 +41,49 @@
       <div class="container-fluid d-flex justify-content-center">
           <div class="row pt-4" id="socialButtons">
             <div class="col-auto">
-              <a href="#" class="btn btn-light active" role="button" aria-pressed="true"><i class="fab fa-github"></i>github</a>
+              <a href="https://www.github.com/CSukalski" class="btn btn-light active" role="button" aria-pressed="true"><i class="fab fa-github"></i>github</a>
             </div>
             <div class="col auto">
-              <a href="#" class="btn btn-light active" role="button" aria-pressed="true"><i class="fab fa-linkedin-in"></i>linkedin</a>
+              <a href="https://www.linkedin.com/in/cheyenne-sukalski-141492141" class="btn btn-light active" role="button" aria-pressed="true"><i class="fab fa-linkedin-in"></i>linkedin</a>
             </div>
           </div>
        </div>
+    </div>
+    <div class="contain-fluid d-flex justify-content-center py-3" id="portfolioHeader">
+      <h3>Portfolio</h3>
+    </div>
+    <div class="container-fluid py-5" id="portfolio">
+      <div class="row">
+        <div class="col-md-3 mr-md-5 ml-auto">
+          <div class="portfolio" id="siteOne">
+            <div class="thumbnail aspectRatioBox mb-3 rounded" style="background-image: url('https://via.placeholder.com/150')">
+            </div>
+            <div class="px-5 py-5 text">
+              <p>site title</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mr-md-5">
+          <div class="portfolio" id="siteTwo">
+            <div class="thumbnail aspectRatioBox mb-3 rounded" style="background-image: url('https://via.placeholder.com/150')">
+            </div>
+            <div class="px-5 py-5 text">
+              <p>site title</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mr-auto">
+          <div class="portfolio" id="siteThree">
+            <div class="thumbnail aspectRatioBox mb-3 rounded" style="background-image: url('https://via.placeholder.com/150')">
+            </div>
+            <div class="px-5 py-5 text">
+              <p>site title</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="aboutUs">
     </div>
 
 
